@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahidi Hasan Chowdhury - Full Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body class="bg-gray-950 text-gray-100">
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-gray-900/80 backdrop-blur-md z-50 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="#home" class="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+                    Developer Portfolio
+                </a>
+                <div class="flex space-x-8">
+                    <a href="#home" class="nav-link text-gray-300 hover:text-white transition-colors duration-300">Home</a>
+                    <a href="#skills" class="nav-link text-gray-300 hover:text-white transition-colors duration-300">Skills</a>
+                    <a href="#projects" class="nav-link text-gray-300 hover:text-white transition-colors duration-300">Projects</a>
+                    <a href="#testimonials" class="nav-link text-gray-300 hover:text-white transition-colors duration-300">Testimonials</a>
+                    <a href="#contact" class="nav-link text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center pt-16 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+            <div class="space-y-6 opacity-0 translate-y-10" data-animate>
+                <h2 class="text-5xl md:text-7xl font-bold leading-tight">
+                    Hi, I'm <span class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">Mahidi Hasan Chowdhury</span>
+                </h2>
+                <div class="text-2xl md:text-3xl text-gray-400">
+                    <span class="typing-text"></span>
+                    <span class="typing-cursor">.</span>
+                </div>
+                <p class="text-lg text-gray-400 leading-relaxed">
+                    Crafting elegant web solutions with modern technologies. 
+                    Passionate about creating seamless user experiences and scalable applications.
+                </p>
+                <div class="flex gap-4">
+                    <a href="#projects" class="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full font-semibold hover:scale-105 transform transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50">
+                        View Projects
+                    </a>
+                    <a href="MahidiHasanChowdhuryResume.pdf" class="px-8 py-3 border-2 border-purple-600 rounded-full font-semibold hover:bg-purple-600 transition-all duration-300">
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-center opacity-0 translate-y-10" data-animate>
+                <div class="relative">
+                    <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-3xl opacity-30 animate-pulse">                       
+                    </div>
+                    <!-- <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop"  -->
+                    <img src="IMG_3558.jpg" 
+                         alt="Profile" 
+                         class="relative w-80 h-80 rounded-full object-cover border-4 border-purple-600 shadow-2xl hover:scale-105 transition-transform duration-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 opacity-0 translate-y-10" data-animate>
+                <span class="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Tech Stack</span>
+            </h2>
+            <p class="text-gray-400 text-center mb-12 opacity-0 translate-y-10" data-animate>Technologies I work with</p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 hover:border-purple-600 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20 opacity-0 translate-y-10" data-animate>
+                    <div class="text-5xl mb-3">⚛️</div>
+                    <h3 class="text-xl font-semibold">React</h3>
+                    <p class="text-gray-500 text-lg">Frontend Library</p>
+                </div>
+                
+                <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 hover:border-purple-600 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20 opacity-0 translate-y-10" data-animate>
+                    <div class="text-5xl mb-3">📱</div>
+                    <h3 class="text-xl font-semibold">Next.js</h3>
+                    <p class="text-gray-500 text-lg">React Framework</p>
+                </div>
+                
+                <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 hover:border-purple-600 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20 opacity-0 translate-y-10" data-animate>
+                    <div class="text-5xl mb-3">🚀</div>
+                    <h3 class="text-xl font-semibold">Express.js</h3>
+                    <p class="text-gray-500 text-lg">Node.js Framework</p>
+                </div>
+                
+                <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 hover:border-purple-600 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20 opacity-0 translate-y-10" data-animate>
+                    <div class="text-5xl mb-3">💚</div>
+                    <h3 class="text-xl font-semibold">Node.js</h3>
+                    <p class="text-gray-500 text-lg">Backend Runtime</p>
+                </div>
+                
+                <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 hover:border-purple-600 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20 opacity-0 translate-y-10" data-animate>
+                    <div class="text-5xl mb-3">🐬</div>
+                    <h3 class="text-xl font-semibold">MySQL</h3>
+                    <p class="text-gray-500 text-lg">SQL Database</p>
+                </div>
+                
+                <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 hover:border-purple-600 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20 opacity-0 translate-y-10" data-animate>
+                    <div class="text-5xl mb-3">🍃</div>
+                    <h3 class="text-xl font-semibold">MongoDB</h3>
+                    <p class="text-gray-500 text-lg">NoSQL Database</p>
+                </div>
+                
+                <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 hover:border-purple-600 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20 opacity-0 translate-y-10" data-animate>
+                    <div class="text-5xl mb-3">🐍</div>
+                    <h3 class="text-xl font-semibold">Python</h3>
+                    <p class="text-gray-500 text-lg">Programming Language</p>
+                </div>
+                
+                <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 hover:border-purple-600 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20 opacity-0 translate-y-10" data-animate>
+                    <div class="text-5xl mb-3">☕</div>
+                    <h3 class="text-xl font-semibold">JAVA</h3>
+                    <p class="text-gray-500 text-lg">Programming Language</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 bg-gray-900/50">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 opacity-0 translate-y-10" data-animate>
+                <span class="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Featured Projects</span>
+            </h2>
+            <p class="text-gray-400 text-center mb-12 opacity-0 translate-y-10" data-animate>Some of my recent work</p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="group bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 hover:border-purple-600 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/20 opacity-0 translate-y-10" data-animate>
+                    <div class="relative overflow-hidden">
+                        <img src="E commerce landing page.jpeg" 
+                             alt="Project 1" 
+                             class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent opacity-60"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">E-Commerce Platform</h3>
+                        <p class="text-gray-400 mb-4">A modern e-commerce platform with payment integration, real-time inventory, and admin dashboard.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm">React</span>
+                            <span class="px-3 py-1 bg-green-600/20 text-green-400 rounded-full text-sm">Node.js</span>
+                            <span class="px-3 py-1 bg-purple-600/20 text-purple-400 rounded-full text-sm">MongoDB</span>
+                        </div>
+                        <a href="https://www.amazon.com/" class="inline-flex items-center text-purple-500 hover:text-purple-400 transition-colors">
+                            View Live 
+                            <svg class="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="group bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 hover:border-purple-600 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/20 opacity-0 translate-y-10" data-animate>
+                    <div class="relative overflow-hidden">
+                        <img src="task management project.jpeg" 
+                             alt="Project 2" 
+                             class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent opacity-60"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Task Management App</h3>
+                        <p class="text-gray-400 mb-4">Collaborative project management tool with real-time updates, team chat, and file sharing.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm">React.js</span>
+                            <span class="px-3 py-1 bg-green-600/20 text-green-400 rounded-full text-sm">Springboot</span>
+                            <span class="px-3 py-1 bg-yellow-600/20 text-yellow-400 rounded-full text-sm">MongoDB</span>
+                        </div>
+                        <a href="https://www.meistertask.com/" class="inline-flex items-center text-purple-500 hover:text-purple-400 transition-colors">
+                            View Live 
+                            <svg class="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="group bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 hover:border-purple-600 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/20 opacity-0 translate-y-10" data-animate>
+                    <div class="relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&h=400&fit=crop" 
+                             alt="Project 3" 
+                             class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent opacity-60"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">AI Chatbot Platform</h3>
+                        <p class="text-gray-400 mb-4">Intelligent customer support chatbot with NLP, multi-language support, and analytics dashboard.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm">Python</span>
+                            <span class="px-3 py-1 bg-green-600/20 text-green-400 rounded-full text-sm">TensorFlow</span>
+                            <span class="px-3 py-1 bg-purple-600/20 text-purple-400 rounded-full text-sm">React</span>
+                        </div>
+                        <a href="https://chatgpt.com/" class="inline-flex items-center text-purple-500 hover:text-purple-400 transition-colors">
+                            View Live 
+                            <svg class="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 opacity-0 translate-y-10" data-animate>
+                <span class="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">What Others Say</span>
+            </h2>
+            <p class="text-gray-400 text-center mb-12 opacity-0 translate-y-10" data-animate>Don't just take my word for it</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonial Card 1 -->
+                <div class="bg-gray-900 p-8 rounded-2xl border border-gray-800 hover:border-purple-600 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-purple-500/10 opacity-0 translate-y-10" data-animate>
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-500 text-xl ">★★★★★</div>
+                    </div>
+                    <p class="text-gray-300 mb-6 italic">"Mahidi has consistently demonstrated exceptional problem-solving skills and a deep understanding of full-stack development. He was always eager to take on challenging projects and delivered quality work. His dedication and technical acumen make him a valuable asset to any team."</p>
+                    <div class="flex items-center">
+                        <img src="asif photo.jpg" alt="Client" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">Md. Fojle Hasan</h4>
+                            <p class="text-gray-500 text-sm">ICPC & Hackathon Partner</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial Card 2 -->
+                <div class="bg-gray-900 p-8 rounded-2xl border border-gray-800 hover:border-purple-600 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-purple-500/10 opacity-0 translate-y-10" data-animate>
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-500 text-xl">★★★★★</div>
+                    </div>
+                    <p class="text-gray-300 mb-6 italic">"I had the opportunity to mentor Mahidi during his early university days. He's incredibly quick to grasp new concepts and always asked insightful questions. His work ethic and enthusiasm for coding are truly commendable. He's grown into a skilled developer and I'm confident he'll excel in his career."</p>
+                    <div class="flex items-center">
+                        <img src="abdullah_Vai_photo.jpeg" alt="Client" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">Abdullah Rahman</h4>
+                            <p class="text-gray-500 text-sm">AI & ML Researcher | Competitive Programmer | Fullstack Software Developer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial Card 3 -->
+                <div class="bg-gray-900 p-8 rounded-2xl border border-gray-800 hover:border-purple-600 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-purple-500/10 opacity-0 translate-y-10" data-animate>
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-500 text-xl">★★★★★</div>
+                    </div>
+                    <p class="text-gray-300 mb-6 italic">"Mahidi was one of my most dedicated students. He showed remarkable aptitude for learning new technologies and always went beyond the curriculum. His passion for development and continuous learning mindset will take him far in his career."</p>
+                    <div class="flex items-center">
+                        <img src="Noor_Sir_photo.jpeg" alt="Client" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">Asaduzzaman Noor</h4>
+                            <p class="text-gray-500 text-sm">Technical Lead | Java Spring Boot Expert | Cloud & Microservices Enthusiast</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6 bg-gray-900/50">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 opacity-0 translate-y-10" data-animate>
+                <span class="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Get In Touch</span>
+            </h2>
+            <p class="text-gray-400 text-center mb-12 opacity-0 translate-y-10" data-animate>Let's discuss something meaningful</p>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Contact Info -->
+                <div class="space-y-6 opacity-0 translate-y-10" data-animate>
+                    <div class="flex items-start space-x-4 p-4 rounded-xl hover:bg-gray-900 transition-colors duration-300">
+                        <div class="text-3xl">📧</div>
+                        <div>
+                            <h3 class="font-semibold text-lg mb-1">Email</h3>
+                            <a href="mailto:mahidihasan635@gmail.com" class="text-gray-400 hover:text-purple-500 transition-colors">mahidihasan635@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4 p-4 rounded-xl hover:bg-gray-900 transition-colors duration-300">
+                        <div class="text-3xl">📱</div>
+                        <div>
+                            <h3 class="font-semibold text-lg mb-1">Phone</h3>
+                            <a href="tel:+1234567890" class="text-gray-400 hover:text-purple-500 transition-colors">+880 1947451960</a>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4 p-4 rounded-xl hover:bg-gray-900 transition-colors duration-300">
+                        <div class="text-3xl">📍</div>
+                        <div>
+                            <h3 class="font-semibold text-lg mb-1">Location</h3>
+                            <p class="text-gray-400">Dhaka, Bangladesh</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex space-x-4 pt-4">
+                        <a href="https://github.com/Mahidi-Hasan-Chowdhury" class="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center hover:bg-purple-600 transition-all duration-300 hover:scale-110">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mahidi-hasan-chowdhury-35a1a1299/" class="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center hover:bg-purple-600 transition-all duration-300 hover:scale-110">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                        <a href="https://x.com/MahedyHasan404" class="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center hover:bg-purple-600 transition-all duration-300 hover:scale-110">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <form action="https://api.web3forms.com/submit" method="POST" id="contact-form" class="space-y-4 opacity-0 translate-y-10" data-animate>
+                    <input type="hidden" name="access_key" value="b349b381-43c8-4c58-9e3b-56e7781e2bf0">
+                    <div>
+                        <input type="text" name="name" placeholder="Your Name" required class="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-xl focus:outline-none focus:border-purple-600 transition-colors duration-300">
+                    </div>
+                    <div>
+                        <input type="email" name="email" placeholder="Your Email" required class="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-xl focus:outline-none focus:border-purple-600 transition-colors duration-300">
+                    </div>
+                    <div>
+                        <textarea name="message"placeholder="Your Message" rows="5" required class="w-full px-4 py-3 bg-gray-900 border border-gray-800 rounded-xl focus:outline-none focus:border-purple-600 transition-colors duration-300 resize-none"></textarea>
+                    </div>
+                    <button type="submit" class="w-full px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl font-semibold hover:scale-105 transform transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-6 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto text-center text-gray-400">
+            <p>&copy 2025 Mahidi Hasan Chowdhury. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
